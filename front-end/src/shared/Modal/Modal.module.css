@@ -1,0 +1,19 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    z-index: 10000;
+}
+
+.modal {
+    padding: 0.8rem;
+    background-color: var(--color-primary);
+    border: var(--border-primary);
+    border-radius: 0.7rem;
+}

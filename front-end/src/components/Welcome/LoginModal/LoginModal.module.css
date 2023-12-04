@@ -1,0 +1,9 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input:last-of-type {
+    margin-bottom: 0.5rem;
+}

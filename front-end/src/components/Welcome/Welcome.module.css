@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.title {
+    font-size: var(--font-size-xlarge);
+}
+
+.title span {
+    font-size: inherit;
+    color: var(--color-highlight);
+}
+
+.button_container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.hint {
+    padding: 1.5rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: var(--color-accent);
+    border-radius: 1rem;
+    border: var(--border-primary);
+    z-index: -1;
+}
+
+.hint span {
+    color: var(--color-highlight);
+}

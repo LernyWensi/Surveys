@@ -1,0 +1,16 @@
+.input {
+    padding: 0.4rem 1rem;
+    font-size: var(--font-size-medium);
+    background-color: var(--color-accent);
+    border-radius: 0.5rem;
+    border: var(--border-primary);
+    transition: 0.15s;
+}
+
+.input:hover {
+    filter: brightness(0.9);
+}
+
+.input:focus {
+    border: var(--border-highlight);
+}

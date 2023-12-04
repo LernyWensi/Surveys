@@ -1,0 +1,13 @@
+.question {
+    background-color: var(--color-accent);
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.4rem;
+    border: var(--border-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.tag {
+    color: var(--color-highlight);
+}

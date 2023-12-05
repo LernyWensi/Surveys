@@ -60,9 +60,9 @@ const SignupModal = (props: SignupModalProps) => {
     return (
         <Modal state={signupIsOpen} handler={toggleSignupModal}>
             <form onSubmit={handleSubmit} className={styles.signup}>
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">Имя</label>
                 <Input type="text" placeholder="Hi, first time there?" name="name" onChange={handleNameInput} />
-                <label htmlFor="password">Password</label>
+                <label htmlFor="password">Пароль</label>
                 <Input type="password" placeholder="Make it strong" name="password" onChange={handlePasswordInput} />
                 <Button type="submit">Sign Up</Button>
             </form>

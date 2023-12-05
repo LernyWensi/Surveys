@@ -51,10 +51,10 @@ const LoginModal = (props: LoginModalProps) => {
     return (
         <Modal state={loginIsOpen} handler={toggleLoginModal}>
             <form className={styles.login} onSubmit={handleSubmit}>
-                <label htmlFor="name">Name</label>
-                <Input type="text" placeholder="Did I know you?" name="name" onChange={handleNameInput} />
-                <label htmlFor="password">Password</label>
-                <Input type="password" placeholder="Did I know this?" name="password" onChange={handlePasswordInput} />
+                <label htmlFor="name">Имя</label>
+                <Input type="text" placeholder="Hm..." name="name" onChange={handleNameInput} />
+                <label htmlFor="password">Пароль</label>
+                <Input type="password" placeholder="Very strong, huh?" name="password" onChange={handlePasswordInput} />
                 <Button type="submit">Login</Button>
             </form>
         </Modal>

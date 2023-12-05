@@ -10,16 +10,16 @@ const Question = (props: QuestionProps) => {
     return (
         <div className={styles.question}>
             <p>
-                <span className={styles.tag}>Question: </span>
+                <span className={styles.tag}>Вопрос: </span>
                 {question.question}
             </p>
             <p>
-                <span className={styles.tag}>Type: </span>
+                <span className={styles.tag}>Тип: </span>
                 {question.type}
             </p>
             {question.answers && (
                 <p>
-                    <span className={styles.tag}>Answers: </span>
+                    <span className={styles.tag}>Ответы: </span>
                     {question.answers?.join(", ")}
                 </p>
             )}

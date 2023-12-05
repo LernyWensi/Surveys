@@ -107,11 +107,11 @@ const SurveySearchBar = () => {
                 id="search-bar"
                 className={styles.input}
                 type="text"
-                placeholder="Search for survey by ID"
+                placeholder="Поиск опроса по ID"
                 onChange={handleSurveyIdChange}
             />
             <Button className={styles.search} type="button" onClick={handleSearch}>
-                Search
+                Поиск
             </Button>
 
             <Modal state={isSurveyOpen} handler={toggleSurveyModal} className={styles.modal}>
@@ -167,7 +167,7 @@ const SurveySearchBar = () => {
                         )
                     )}
 
-                    <Button type="submit">Submit</Button>
+                    <Button type="submit">Отправить</Button>
                 </form>
             </Modal>
         </div>

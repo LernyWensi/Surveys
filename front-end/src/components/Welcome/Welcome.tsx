@@ -35,7 +35,7 @@ const Welcome = (props: WelcomeProps) => {
             />
 
             <h1 className={styles.title}>
-                Welcome to <span>Surveys</span>
+                Добро пожаловать на <span>Опросы</span>
             </h1>
             <div className={styles.button_container}>
                 <Button onClick={toggleLoginModal}>Login</Button>
@@ -43,12 +43,14 @@ const Welcome = (props: WelcomeProps) => {
             </div>
             <div className={styles.hint}>
                 <p>
-                    You can't create <span>surveys</span> before you <span>logged in</span>. Consider{" "}
-                    <span>sign up</span> and try to create your first survey.
+                    Вы не можете <span>создавать опросы</span> до того, как <span>авторизуетесь</span>.
                 </p>
                 <p>
-                    You can patriciate in <span>survey</span> by searching <span>it</span> by id in the{" "}
-                    <span>search bar</span> at the top.
+                    <span>Зарегистрируйтесь</span> и попробуйте создать ваш первый опрос.
+                </p>
+                <p>
+                    Вы можете участвовать в <span>опросах</span>, используя заранее представленный <span>ID </span>
+                    <span>в поисковой строке,</span> в заголовке страницы.
                 </p>
             </div>
         </div>

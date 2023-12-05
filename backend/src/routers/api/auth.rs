@@ -11,8 +11,8 @@ use std::sync::Arc;
 use time::OffsetDateTime;
 
 use crate::{
-    auth::{auth_require, AuthenticatedUser, AUTH_TOKEN},
     controllers::user::UserController,
+    mv::auth::{auth_require, AuthenticatedUser, AUTH_TOKEN},
     models::{
         user::{CreateUser, RequestLoginUser, RequestSignupUser, ResponseUser, TokenClaims},
         DefaultResponse,

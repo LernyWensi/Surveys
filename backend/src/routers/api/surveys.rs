@@ -10,12 +10,12 @@ use std::sync::Arc;
 use uuid::Uuid;
 
 use crate::{
-    auth::{auth_require, AuthenticatedUser},
     controllers::survey::SurveyController,
     models::{
         survey::{CreateSurvey, RequestCreateSurvey, ResponseSurvey},
         DefaultResponse,
     },
+    mv::auth::{auth_require, AuthenticatedUser},
     AppState, Result,
 };
 

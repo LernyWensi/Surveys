@@ -147,25 +147,25 @@ const Home = (props: HomeProps) => {
                     />
 
                     <Button type="button" onClick={handleAdd}>
-                        Add
+                        Добавить
                     </Button>
                 </div>
 
                 <div className={styles.survey_buttons}>
                     <Button type="button" onClick={handleCreate}>
-                        Create
+                        Создать
                     </Button>
 
                     <Button type="button" onClick={handleSingle}>
-                        Single
+                        Один
                     </Button>
 
                     <Button type="button" onClick={handleMultiple}>
-                        Multiple
+                        Несколько
                     </Button>
 
                     <Button type="button" onClick={handleInput}>
-                        Input
+                        Ввод
                     </Button>
                 </div>
             </div>
